@@ -1,0 +1,26 @@
+{
+  "src/NonStrictTest.js": {
+    "eqeqeq": {
+      "count": 1
+    }
+  },
+  "src/TestNonStrict.js": {
+    "no-unused-vars": {
+      "count": 1
+    },
+    "eqeqeq": {
+      "count": 1
+    }
+  },
+  "src/App.tsx": {
+    "no-alert": {
+      "count": 1
+    },
+    "no-unused-vars": {
+      "count": 1
+    },
+    "eqeqeq": {
+      "count": 1
+    }
+  }
+}

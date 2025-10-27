@@ -1,4 +1,6 @@
 // Non-strict mode test
 var x;
-delete x;
+// if (x == null) {
+//     x = 10;
+// }
 console.log("test");

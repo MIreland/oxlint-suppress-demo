@@ -1,4 +1,6 @@
 function test() {
   var x;
-  delete x;
+  if (x == null) {
+    x = 10;
+  }
 }

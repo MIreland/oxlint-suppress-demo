@@ -14,8 +14,9 @@
   "settings": {},
   "rules": {
     "no-delete-var": "error",
+    "no-alert": "error",
     "no-unassigned-vars": "error",
-    "eqeqeq": "warn",
+    "eqeqeq": "error",
     "import/no-cycle": "error",
     "react/self-closing-comp": [
       "error",

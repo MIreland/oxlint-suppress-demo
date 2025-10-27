@@ -8,7 +8,12 @@ function App() {
 
     let thing = 3;
     var x;
-    delete x;
+
+    alert("hello");
+
+    if (thing == 2){
+        console.log("thing is 2");
+    }
 
   return (
     <>

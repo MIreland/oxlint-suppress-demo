@@ -1,31 +1,15 @@
 {
-  "/Users/user/WebstormProjects/oxlint-suppress-demo/src/App.tsx": {
-    "no-delete-var": {
+  "src/App.tsx": {
+    "@typescript-eslint/no-unused-vars": {
       "count": 1
     },
-    "no-unassigned-vars": {
+    "eqeqeq": {
       "count": 1
     },
-    "no-unused-vars": {
-      "count": 1
-    }
-  },
-  "/Users/user/WebstormProjects/oxlint-suppress-demo/src/NonStrictTest.js": {
-    "no-unassigned-vars": {
+    "no-var": {
       "count": 1
     },
-    "no-delete-var": {
-      "count": 1
-    }
-  },
-  "/Users/user/WebstormProjects/oxlint-suppress-demo/src/TestNonStrict.js": {
-    "no-delete-var": {
-      "count": 1
-    },
-    "no-unused-vars": {
-      "count": 1
-    },
-    "no-unassigned-vars": {
+    "prefer-const": {
       "count": 1
     }
   }

@@ -6,13 +6,21 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "clean": "rm -rf dist && rm eslint-suppressions.json",
-    "oxlint:suppress": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js --suppress-all src",
-    "oxlint": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js src",
+    "eslint": "eslint .",
+    "eslint:suppress-all": "eslint --suppress-all src --ext .js,.ts,.tsx",
+    "eslint:suppress-rule": "eslint --suppress-rule no-alert src --ext .js,.ts,.tsx",
+    "eslint:prune-suppression": "eslint --prune-suppressions src --ext .js,.ts,.tsx",
+    "clean": "rm -rf dist && rm -f oxlint-suppressions.json",
+    "oxlint:suppress-all": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js --suppress-all src",
+    "oxlint:suppress-rule": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js --suppress-rule eqeqeq src",
+    "oxlint:prune-suppression": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js --prune-suppressions src",
+    "oxlint:pass-on-unpruned": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js -c .oxlintrc.json --pass-on-unpruned-suppressions src",
+    "oxlint": "node /Users/user/Desktop/oxc/apps/oxlint/dist/cli.js -c .oxlintrc.json src",
+    "oxlint-main": "oxlint -c .oxlintrc.json src",
     "preview": "vite preview"
   },
   "dependencies": {
+    "oxlint": "^1.24.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
