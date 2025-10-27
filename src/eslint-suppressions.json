@@ -1,0 +1,7 @@
+{
+  "/Users/user/WebstormProjects/oxlint-suppress-demo/src/App.tsx": {
+    "no-delete-var": {
+      "count": 1
+    }
+  }
+}
